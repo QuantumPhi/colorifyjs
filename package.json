@@ -1,27 +1,26 @@
 {
   "name": "colorifyjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Colors!",
   "main": "colorify.min.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/QuantumPhi/gh-color.git"
+    "url": "git://github.com/QuantumPhi/colorifyjs.git"
   },
   "author": "Tarik Onalan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/QuantumPhi/gh-color/issues"
+    "url": "https://github.com/QuantumPhi/colorifyjs/issues"
   },
-  "homepage": "https://github.com/QuantumPhi/gh-color",
+  "homepage": "https://github.com/QuantumPhi/colorifyjs",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-uglify": "^0.6.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "js-yaml": "^3.2.3",
-    "request": "^2.51.0"
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "dependencies": {
+      "js-yaml": "^3.2.3",
+      "request": "^2.51.0"
   }
 }
