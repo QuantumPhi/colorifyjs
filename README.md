@@ -11,9 +11,9 @@ npm install colorifyjs
 ```
 var colorify = require('colorifyjs')
 colorify(function(colors) {
-    /* COLORS! */
+    /*
+     * Logic with colors array -> e.g.:
+     * console.log(colors['Javascript'])
+     */
 })
 ```
-
-Contact [me](https://github.com/QuantumPhi) by [email](mailto:phi.quantum@gmail.com)
-if you have any questions. Happy hacking!
