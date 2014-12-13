@@ -1,6 +1,6 @@
 var request = require('request'),
     yaml    = require('js-yaml')
-    url  = ''
+    url  = 'https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml'
 
 /**
  * Returns Github's language color codes

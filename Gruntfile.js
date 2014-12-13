@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-    require('grunt-load-tasks')(grunt)
+    require('load-grunt-tasks')(grunt)
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
                 src: 'colorify.js',
                 dest: 'colorify.min.js'
             }
-        }
+        },
 
         watch: {
             files: ['colorify.js'],
